@@ -41,7 +41,7 @@ The data was obtained from https://takeout.google.com/settings/takeout. Due to p
   
 ### 2. Average Emails per day and per hour
 * Here is a triple plot for time of the day versus year for all the emails within a given timeframe
-  ![Fig 2. Plot for time of the day versus year for all the emails ](mails_per_day.png)
+  ![Fig 2. Plot for time of the day versus year for all the emails ](avg_mails_per_day.png)
 
 ### 3. Emails as per days of the week
 * As seen by the bar chart, most of the outgoing emails were sent on Thursday and most of the incoming emails were received on Friday
