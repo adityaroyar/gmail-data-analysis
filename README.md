@@ -20,12 +20,12 @@ The data was obtained from https://takeout.google.com/settings/takeout. Due to p
 
 ## Steps prior to analysis
 1. Data cleaning - 
-   1.1 Consisted of removing `NaN`
-   1.2 Conversion of dataframe objects to a more suitable data format
-   1.3 Extraction of email ids from the `from` field using regular expressions
-   1.4 Dropping unneccessary columns
+  1.1 Consisted of removing `NaN`
+  1.2 Conversion of dataframe objects to a more suitable data format
+  1.3 Extraction of email ids from the `from` field using regular expressions
+  1.4 Dropping unneccessary columns
 2. Refactoring timezones -
-   2.1 Done using `pytz` and `pandas`
+  2.1 Done using `pytz` and `pandas`
 
 ## Analysis
 
@@ -36,4 +36,8 @@ The data was obtained from https://takeout.google.com/settings/takeout. Due to p
 * How many emails were received and sent?
   * Received = 62180
   * Sent = 1172
+  * Here is a scatter plot for the distribution of emails sent and received per time of day
+  ![Fig 1. Mails received and sent as per time of day](mails_received_per_tod.png)
+
+
 [^1]: Source: [Gmail for developers](https://developers.google.com/gmail/imap/imap-extensions)
