@@ -1,5 +1,11 @@
 # Gmail Data Analysis and Visualization
 
+## Python Libraries used
+1. NumPy
+2. Pandas
+3. Matplotlib
+4. Mailbox
+
 ## Goal
 * Answer the following questions - 
   1. How many emails did I send during a given timeframe?
@@ -9,7 +15,6 @@
   5. Which is my most active day in terms of emails?
 
 ## Dataset
-
 The data was obtained from https://takeout.google.com/settings/takeout. Due to privacy reasons, the dataset is not included in this repository. After downloading the dataset containing all the emails, the compressed file was unzipped to obtain file with an `.mbox` extension. In order to read this, the [mailbox library](https://pypi.org/project/mailbox/#description) was used. The following fields were extracted from the mailbox object -
   1. Subject
   2. From
